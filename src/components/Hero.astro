@@ -29,14 +29,14 @@
 <!--                  Services                    -->
 <!-- ============================================ -->
 
-<section id="services-674-674">
+<section id="services">
     <ul class="cs-card-group">
         <li class="cs-item">
             <picture class="cs-picture">
                 <img class="cs-icon" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Services%2Fhealth1.svg" alt="icon" aria-hidden="true" decoding="async" width="52" height="52">
             </picture>
             <h2 class="cs-h2">Semaglutide</h2>
-            <a href="" class="cs-link" aria-label="read more about Semaglutide">Read More</a>
+            <a href="#sbs1" class="cs-link" aria-label="read more about Semaglutide">Read More</a>
             <!--SVG Waves-->
             <img class="cs-waves" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Services%2Fgrey-waves.svg" alt="waves graphic" aria-hidden="true" decoding="async" width="480" height="331">
         </li>
@@ -45,7 +45,7 @@
                 <img class="cs-icon" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Services%2Fhealth2.svg" alt="icon" aria-hidden="true" decoding="async" width="52" height="52">
             </picture>
             <h2 class="cs-h2">Dermal Filler</h2>
-            <a href="" class="cs-link" aria-label="read more about Dermal Filler">Read More</a>
+            <a href="#sbs2" class="cs-link" aria-label="read more about Dermal Filler">Read More</a>
             <!--SVG Waves-->
             <img class="cs-waves" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Services%2Fgrey-waves.svg" alt="waves graphic" aria-hidden="true" decoding="async" width="480" height="331">
         </li>
@@ -54,7 +54,7 @@
                 <img class="cs-icon" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Services%2Fhealth3.svg" alt="icon" aria-hidden="true" decoding="async" width="52" height="52">
             </picture>
             <h2 class="cs-h2">Tirezapetide</h2>
-            <a href="" class="cs-link" aria-label="read more about Tirezapetide">Read More</a>
+            <a href="#sbs3" class="cs-link" aria-label="read more about Tirezapetide">Read More</a>
             <!--SVG Waves-->
             <img class="cs-waves" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Services%2Fgrey-waves.svg" alt="waves graphic" aria-hidden="true" decoding="async" width="480" height="331">
         </li>
@@ -63,7 +63,7 @@
                 <img class="cs-icon" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Services%2Fhealth4.svg" alt="icon" aria-hidden="true" decoding="async" width="52" height="52">
             </picture>
             <h2 class="cs-h2">Neurotoxins</h2>
-            <a href="" class="cs-link" aria-label="read more about Neurotoxins">Read More</a>
+            <a href="#sbs4" class="cs-link" aria-label="read more about Neurotoxins">Read More</a>
             <!--SVG Waves-->
             <img class="cs-waves" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Services%2Fgrey-waves.svg" alt="waves graphic" aria-hidden="true" decoding="async" width="480" height="331">
         </li>
@@ -240,13 +240,13 @@
 <--- -------------------------- -*/
 /* Mobile - 360px */
 @media only screen and (min-width: 0rem) {
-  #services-674-674 .cs-card-group {
+  #services .cs-card-group {
     margin: 0;
     padding: 0;
     display: flex;
     flex-direction: column;
   }
-  #services-674-674 .cs-item {
+  #services .cs-item {
     list-style: none;
     /* prevents padding and border from affecting height and width */
     box-sizing: border-box;
@@ -260,20 +260,20 @@
     z-index: 1;
     transition: filter 0.3s;
   }
-  #services-674-674 .cs-item:hover {
+  #services .cs-item:hover {
     filter: brightness(70%);
   }
-  #services-674-674 .cs-item:nth-of-type(even) {
+  #services .cs-item:nth-of-type(even) {
     background-color: var(--primary);
   }
-  #services-674-674 .cs-item:nth-of-type(even) .cs-link,
-  #services-674-674 .cs-item:nth-of-type(even) .cs-h2 {
+  #services .cs-item:nth-of-type(even) .cs-link,
+  #services .cs-item:nth-of-type(even) .cs-h2 {
     color: #f7f7f7;
   }
-  #services-674-674 .cs-item:nth-of-type(even) .cs-waves {
+  #services .cs-item:nth-of-type(even) .cs-waves {
     display: none;
   }
-  #services-674-674 .cs-picture {
+  #services .cs-picture {
     width: 6.25rem;
     height: 6.25rem;
     margin: 0 0 1.25rem 0;
@@ -283,12 +283,12 @@
     justify-content: center;
     align-items: center;
   }
-  #services-674-674 .cs-icon {
+  #services .cs-icon {
     width: 3.25rem;
     height: auto;
     display: block;
   }
-  #services-674-674 .cs-h2 {
+  #services .cs-h2 {
     font-size: 1.5625rem;
     font-weight: 700;
     line-height: 1.2em;
@@ -298,7 +298,7 @@
     color: var(--headerColor);
     display: block;
   }
-  #services-674-674 .cs-link {
+  #services .cs-link {
     font-size: 1rem;
     font-weight: 700;
     line-height: 1.2em;
@@ -308,7 +308,7 @@
     display: inline-block;
     position: relative;
   }
-  #services-674-674 .cs-link:before {
+  #services .cs-link:before {
     /* underline */
     content: "";
     width: 100%;
@@ -320,7 +320,7 @@
     bottom: -1px;
     left: 0;
   }
-  #services-674-674 .cs-waves {
+  #services .cs-waves {
     width: 100%;
     height: 100%;
     /* makes it act like a background images */
@@ -337,23 +337,23 @@
 }
 /* Tablet - 650px */
 @media only screen and (min-width: 40.625rem) {
-  #services-674-674 .cs-card-group {
+  #services .cs-card-group {
     flex-direction: row;
     flex-wrap: wrap;
   }
-  #services-674-674 .cs-item {
+  #services .cs-item {
     width: 50%;
   }
-  #services-674-674 .cs-item:nth-of-type(3) {
+  #services .cs-item:nth-of-type(3) {
     order: 4;
   }
 }
 /* Small Desktop - 1200px */
 @media only screen and (min-width: 75rem) {
-  #services-674-674 .cs-item {
+  #services .cs-item {
     width: 25%;
   }
-  #services-674-674 .cs-item:nth-of-type(3) {
+  #services .cs-item:nth-of-type(3) {
     order: initial;
   }
 }

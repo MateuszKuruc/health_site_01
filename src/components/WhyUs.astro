@@ -2,7 +2,7 @@
 <!--                    Stats                     -->
 <!-- ============================================ -->
 
-<section id="stats-887">
+<section id="about">
     <div class="cs-container">
         <div class="cs-content">
             <span class="cs-topper">Our Mission</span>
@@ -13,7 +13,7 @@
             <p class="cs-text">
                 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Commodi eos eum amet atque deserunt ut quibusdam quam qui quidem quae.
             </p>
-            <a href="" class="cs-button-solid">Schedule An Appointment</a>
+            <a href="#contact" class="cs-button-solid">Schedule An Appointment</a>
         </div>
         <ul class="cs-card-group">
             <li class="cs-item">
@@ -43,10 +43,10 @@
 
 /* Mobile - 360px */
 @media only screen and (min-width: 0rem) {
-    #stats-887 {
+    #about {
         padding: var(--sectionPadding);
     }
-    #stats-887 .cs-container {
+    #about .cs-container {
         width: 100%;
         /* changes to 1280px at desktop */
         max-width: 34.375rem;
@@ -57,7 +57,7 @@
         /* 48px - 64px */
         gap: clamp(3rem, 6vw, 4rem);
     }
-    #stats-887 .cs-content {
+    #about .cs-content {
         /* set text align to left if content needs to be left aligned */
         text-align: left;
         width: 100%;
@@ -68,13 +68,13 @@
         align-items: flex-start;
     }
 
-    #stats-887 .cs-text {
+    #about .cs-text {
         margin-bottom: 1rem;
     }
-    #stats-887 .cs-text:last-of-type {
+    #about .cs-text:last-of-type {
         margin-bottom: 2rem;
     }
-    #stats-887 .cs-button-solid {
+    #about .cs-button-solid {
         font-size: 1rem;
         /* 46px - 56px */
         line-height: clamp(2.875rem, 5.5vw, 3.5rem);
@@ -93,7 +93,7 @@
         /* prevents padding from adding to the width */
         box-sizing: border-box;
     }
-    #stats-887 .cs-button-solid:before {
+    #about .cs-button-solid:before {
         content: "";
         position: absolute;
         height: 100%;
@@ -106,10 +106,10 @@
         border-radius: 0.25rem;
         transition: width 0.3s;
     }
-    #stats-887 .cs-button-solid:hover:before {
+    #about .cs-button-solid:hover:before {
         width: 100%;
     }
-    #stats-887 .cs-card-group {
+    #about .cs-card-group {
         width: 100%;
         max-width: 39.375rem;
         margin: 0;
@@ -119,7 +119,7 @@
         /* 16px - 20px */
         gap: clamp(1rem, 2vw, 1.25rem);
     }
-    #stats-887 .cs-item {
+    #about .cs-item {
         text-align: center;
         list-style: none;
         /* changes at small desktop then again at large desktop */
@@ -136,23 +136,23 @@
         grid-column: span 2;
         position: relative;
     }
-    #stats-887 .cs-item:nth-of-type(1) {
+    #about .cs-item:nth-of-type(1) {
         background-color: #fef7f4;
         border-radius: 0 5rem 0 5rem;
     }
-    #stats-887 .cs-item:nth-of-type(2) {
+    #about .cs-item:nth-of-type(2) {
         background-color: #e8e8e8;
         border-radius: 5rem 0 5rem 0;
     }
-    #stats-887 .cs-item:nth-of-type(3) {
+    #about .cs-item:nth-of-type(3) {
         background-color: #fbcebd;
         border-radius: 5rem 0 5rem 0;
     }
-    #stats-887 .cs-item:nth-of-type(4) {
+    #about .cs-item:nth-of-type(4) {
         background-color: #f7f7f7;
         border-radius: 0 5rem 0 5rem;
     }
-    #stats-887 .cs-number {
+    #about .cs-number {
         /* 39px - 49px */
         font-size: clamp(2.4375rem, 6vw, 3.0625rem);
         line-height: 1.2em;
@@ -161,7 +161,7 @@
         margin: 0 0 0.75rem 0;
         color: var(--headerColor);
     }
-    #stats-887 .cs-desc {
+    #about .cs-desc {
         /* 16px -20px */
         font-size: clamp(1rem, 2vw, 1.25rem);
         line-height: 1.2em;
@@ -173,13 +173,13 @@
 }
 /* Tablet - 650px */
 @media only screen and (min-width: 40.625rem) {
-    #stats-887 .cs-item {
+    #about .cs-item {
         grid-column: span 1;
     }
 }
 /* Small Desktop - 1024px */
 @media only screen and (min-width: 64rem) {
-    #stats-887 .cs-container {
+    #about .cs-container {
         max-width: 80rem;
         flex-direction: row;
         justify-content: space-between;
