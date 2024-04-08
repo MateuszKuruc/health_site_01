@@ -2,7 +2,7 @@
 <!--                Side By Side                  -->
 <!-- ============================================ -->
 
-<section id="RTsbs-694">
+<section id="sbs1">
     <div class="cs-container">
         <div class="cs-image-group">
             <!--Main Image-->
@@ -46,7 +46,7 @@
 <!--           Side By Side Reverse               -->
 <!-- ============================================ -->
 
-<section id="RTsbsr-694">
+<section id="sbs2">
     <div class="cs-container">
         <div class="cs-image-group">
             <!--Main Image-->
@@ -90,7 +90,7 @@
 <!--           Side By Side Triplet               -->
 <!-- ============================================ -->
 
-<section id="RTsbst-694">
+<section id="sbs3">
     <div class="cs-container">
         <div class="cs-image-group">
             <!--Main Image-->
@@ -129,7 +129,51 @@
     <!--Floating Leaf-->
     <img class="cs-floater" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images%2FMISC%2Fleaf4.png" alt="leaf" width="216" height="384" aria-hidden="true">
 </section>
-                                
+             
+<!-- ============================================ -->
+<!--           Side By Side Reverse               -->
+<!-- ============================================ -->
+
+<section id="sbs2">
+    <div class="cs-container">
+        <div class="cs-image-group">
+            <!--Main Image-->
+            <picture class="cs-picture cs-picture1">
+                <!--Mobile Image-->
+                <source media="(max-width: 600px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images%2FPeople%2Fgym.jpg">
+                <!--Tablet and above Image-->
+                <source media="(min-width: 601px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images%2FPeople%2Fgym.jpg">
+                <img loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images%2FPeople%2Fgym.jpg" alt="gym" width="542" height="647">
+            </picture>
+            <!--Small Image-->
+            <picture class="cs-picture cs-picture2">
+                <!--Mobile Image-->
+                <source media="(max-width: 600px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images%2FPeople%2Fweight1.jpg">
+                <!--Tablet and above Image-->
+                <source media="(min-width: 601px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images%2FPeople%2Fweight1.jpg">
+                <img loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images%2FPeople%2Fweight1.jpg" alt="weight measure" width="413" height="493">
+            </picture>
+            <!--Flower Graphic-->
+            <img class="cs-flower" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images%2FGraphics%2Fbig-abstract-flower.svg" alt="flower graphic" width="363" height="350" aria-hidden="true">
+            <!--Spidey Sense Graphic-->
+            <img class="cs-sense" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images%2FGraphics%2Fspider-sense.svg" alt="spidey sense graphic" width="80" height="89" aria-hidden="true">
+        </div>
+        <div class="cs-content">
+            <span class="cs-topper">Featured Service</span>
+            <h2 class="cs-title">Available <span class="cs-color">Weight Loss</span> Options</h2>
+            <p class="cs-text">
+                Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.
+            </p>
+            <p class="cs-text">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Commodi eos eum amet atque deserunt ut quibusdam quam qui quidem quae.
+            </p>
+            <a href="" class="cs-button-solid">Book Appointment</a>
+        </div>
+    </div>
+    <!--Floating Leaf-->
+    <img class="cs-floater" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images%2FMISC%2Fleaf4.png" alt="leaf" width="216" height="384" aria-hidden="true">
+</section>
+
 <style>
     /*-- -------------------------- -->
 <---       Side By Side         -->
@@ -137,16 +181,16 @@
 
 /* Mobile - 360px */
 @media only screen and (min-width: 0rem) {
-    #RTsbs-694,
-    #RTsbsr-694,
-    #RTsbst-694 {
+    #sbs1,
+    #sbs2,
+    #sbs3 {
         padding: var(--sectionPadding);
         overflow: hidden;
         position: relative;
     }
-    #RTsbs-694 .cs-container,
-    #RTsbsr-694 .cs-container,
-    #RTsbst-694 .cs-container {
+    #sbs1 .cs-container,
+    #sbs2 .cs-container,
+    #sbs3 .cs-container {
         width: 100%;
         max-width: 80rem;
         margin: auto;
@@ -156,9 +200,9 @@
         /* 48px - 64px */
         gap: clamp(3rem, 6vw, 4rem);
     }
-    #RTsbs-694 .cs-content,
-    #RTsbsr-694 .cs-content,
-    #RTsbst-694 .cs-content {
+    #sbs1 .cs-content,
+    #sbs2 .cs-content,
+    #sbs3 .cs-content {
         /* set text align to left if content needs to be left aligned */
         text-align: left;
         width: 100%;
@@ -169,24 +213,24 @@
         align-items: flex-start;
     }
 
-    #RTsbs-694 .cs-color,
-    #RTsbsr-694 .cs-color,
-    #RTsbst-694 .cs-color {
+    #sbs1 .cs-color,
+    #sbs2 .cs-color,
+    #sbs3 .cs-color {
         color: var(--primary);
     }
-    #RTsbs-694 .cs-text,
-    #RTsbsr-694 .cs-text,
-    #RTsbst-694 .cs-text {
+    #sbs1 .cs-text,
+    #sbs2 .cs-text,
+    #sbs3 .cs-text {
         margin-bottom: 1rem;
     }
-    #RTsbs-694 .cs-text:last-of-type,
-    #RTsbsr-694 .cs-text:last-of-type,
-    #RTsbst-694 .cs-text:last-of-type {
+    #sbs1 .cs-text:last-of-type,
+    #sbs2 .cs-text:last-of-type,
+    #sbs3 .cs-text:last-of-type {
         margin-bottom: 2rem;
     }
-    #RTsbs-694 .cs-button-solid,
-    #RTsbsr-694 .cs-button-solid,
-    #RTsbst-694 .cs-button-solid {
+    #sbs1 .cs-button-solid,
+    #sbs2 .cs-button-solid,
+    #sbs3 .cs-button-solid {
         font-size: 1rem;
         /* 46px - 56px */
         line-height: clamp(2.875rem, 5.5vw, 3.5rem);
@@ -205,9 +249,9 @@
         /* prevents padding from adding to the width */
         box-sizing: border-box;
     }
-    #RTsbs-694 .cs-button-solid:before,
-    #RTsbsr-694 .cs-button-solid:before,
-    #RTsbst-694 .cs-button-solid:before {
+    #sbs1 .cs-button-solid:before,
+    #sbs2 .cs-button-solid:before,
+    #sbs3 .cs-button-solid:before {
         content: "";
         position: absolute;
         height: 100%;
@@ -220,14 +264,14 @@
         border-radius: 0.25rem;
         transition: width 0.3s;
     }
-    #RTsbs-694 .cs-button-solid:hover:before,
-    #RTsbsr-694 .cs-button-solid:hover:before,
-    #RTsbst-694 .cs-button-solid:hover:before {
+    #sbs1 .cs-button-solid:hover:before,
+    #sbs2 .cs-button-solid:hover:before,
+    #sbs3 .cs-button-solid:hover:before {
         width: 100%;
     }
-    #RTsbs-694 .cs-floater,
-    #RTsbsr-694 .cs-floater,
-    #RTsbst-694 .cs-floater {
+    #sbs1 .cs-floater,
+    #sbs2 .cs-floater,
+    #sbs3 .cs-floater {
         /* 80px - 216px */
         width: clamp(5rem, 9vw, 13.5rem);
         height: auto;
@@ -236,9 +280,9 @@
         top: 0;
         right: 0;
     }
-    #RTsbs-694 .cs-image-group,
-    #RTsbsr-694 .cs-image-group,
-    #RTsbst-694 .cs-image-group {
+    #sbs1 .cs-image-group,
+    #sbs2 .cs-image-group,
+    #sbs3 .cs-image-group {
         /* scales the whole section down and ties the font size to the vw and stops at 75% of the vale of 1em, changes at desktop */
         font-size: min(2.15vw, 0.75em);
         /* everything inside this box is in ems so we can scale it all down proportionally with a font size */
@@ -249,16 +293,16 @@
         position: relative;
         z-index: 1;
     }
-    #RTsbs-694 .cs-picture,
-    #RTsbsr-694 .cs-picture,
-    #RTsbst-694 .cs-picture {
+    #sbs1 .cs-picture,
+    #sbs2 .cs-picture,
+    #sbs3 .cs-picture {
         overflow: hidden;
         display: block;
         position: absolute;
     }
-    #RTsbs-694 .cs-picture img,
-    #RTsbsr-694 .cs-picture img,
-    #RTsbst-694 .cs-picture img {
+    #sbs1 .cs-picture img,
+    #sbs2 .cs-picture img,
+    #sbs3 .cs-picture img {
         width: 100%;
         height: 100%;
         object-fit: cover;
@@ -266,18 +310,18 @@
         top: 0;
         left: 0;
     }
-    #RTsbs-694 .cs-picture1,
-    #RTsbsr-694 .cs-picture1,
-    #RTsbst-694 .cs-picture1 {
+    #sbs1 .cs-picture1,
+    #sbs2 .cs-picture1,
+    #sbs3 .cs-picture1 {
         width: 33.875em;
         height: 40.4375em;
         border-radius: 17.8125em;
         top: 0;
         left: 0;
     }
-    #RTsbs-694 .cs-picture2,
-    #RTsbsr-694 .cs-picture2,
-    #RTsbst-694 .cs-picture2 {
+    #sbs1 .cs-picture2,
+    #sbs2 .cs-picture2,
+    #sbs3 .cs-picture2 {
         width: 25.8125em;
         height: 30.8125em;
         border-radius: 12.875em;
@@ -286,9 +330,9 @@
         bottom: 0;
         right: 0;
     }
-    #RTsbs-694 .cs-flower,
-    #RTsbsr-694 .cs-flower,
-    #RTsbst-694 .cs-flower {
+    #sbs1 .cs-flower,
+    #sbs2 .cs-flower,
+    #sbs3 .cs-flower {
         width: 22.6875em;
         height: auto;
         display: block;
@@ -298,9 +342,9 @@
         z-index: -1;
         transform: rotate(-142deg);
     }
-    #RTsbs-694 .cs-sense,
-    #RTsbsr-694 .cs-sense,
-    #RTsbst-694 .cs-sense {
+    #sbs1 .cs-sense,
+    #sbs2 .cs-sense,
+    #sbs3 .cs-sense {
         width: 5.0625em;
         height: auto;
         display: block;
@@ -312,20 +356,20 @@
 }
 /* Small Desktop - 1024px */
 @media only screen and (min-width: 64rem) {
-    #RTsbs-694 .cs-container,
-    #RTsbsr-694 .cs-container,
-    #RTsbst-694 .cs-container {
+    #sbs1 .cs-container,
+    #sbs2 .cs-container,
+    #sbs3 .cs-container {
         flex-direction: row;
         justify-content: space-between;
     }
-    #RTsbs-694 .cs-image-group,
-    #RTsbsr-694 .cs-image-group,
-    #RTsbst-694 .cs-image-group {
+    #sbs1 .cs-image-group,
+    #sbs2 .cs-image-group,
+    #sbs3 .cs-image-group {
         font-size: min(1.15vw, 1em);
     }
-    #RTsbs-694 .cs-content,
-    #RTsbsr-694 .cs-content,
-    #RTsbst-694 .cs-content {
+    #sbs1 .cs-content,
+    #sbs2 .cs-content,
+    #sbs3 .cs-content {
         width: 48%;
     }
 }
@@ -336,31 +380,31 @@
 
 /* Mobile - 360px */
 @media only screen and (min-width: 0rem) {
-    #RTsbsr-694 {
+    #sbs2 {
         background-color: #f7f7f7;
     }
-    #RTsbsr-694 .cs-picture2 {
+    #sbs2 .cs-picture2 {
         border-color: #f7f7f7;
     }
-    #RTsbsr-694 .cs-picture1 {
+    #sbs2 .cs-picture1 {
         left: auto;
         right: 0;
     }
-    #RTsbsr-694 .cs-picture2 {
+    #sbs2 .cs-picture2 {
         right: auto;
         left: 0;
     }
-    #RTsbsr-694 .cs-flower {
+    #sbs2 .cs-flower {
         left: auto;
         right: -0.625rem;
         transform: rotate(142deg);
     }
-    #RTsbsr-694 .cs-sense {
+    #sbs2 .cs-sense {
         right: auto;
         left: 1.375em;
         transform: rotate(100deg);
     }
-    #RTsbsr-694 .cs-floater {
+    #sbs2 .cs-floater {
         display: none;
         right: auto;
         left: 0;
@@ -369,14 +413,14 @@
 }
 /* Small Desktop - 1024px */
 @media only screen and (min-width: 64rem) {
-    #RTsbsr-694 .cs-image-group {
+    #sbs2 .cs-image-group {
         /* sends it to the right in the 2nd position */
         order: 2;
     }
 }
 /* Large Desktop - 1500px */
 @media only screen and (min-width: 93.75rem) {
-    #RTsbsr-694 .cs-floater {
+    #sbs2 .cs-floater {
         display: block;
     }
 }
